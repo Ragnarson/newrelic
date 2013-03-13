@@ -1,3 +1,4 @@
+name             "newrelic"
 maintainer       "Shelly Cloud Sp. z o. o."
 maintainer_email "devs@shellycloud.com"
 license          "MIT"
