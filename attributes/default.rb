@@ -1,3 +1,4 @@
+default[:newrelic][:repository] = "http://apt.newrelic.com/debian/"
 default[:newrelic]["apt-key"] = "548C16BF"
 default[:newrelic][:keyserver] = "hkp://subkeys.pgp.net"
 default[:newrelic][:config_file] = "/etc/newrelic/nrsysmond.cfg"
