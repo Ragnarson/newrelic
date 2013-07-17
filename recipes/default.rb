@@ -15,5 +15,8 @@ end
 
 service "newrelic-sysmond" do
   supports start: true, stop: true, restart: true, status: true
+  if node[:newrelic][:service_provider]
+    provider eval node[:newrelic][:service_provider]
+  end
 end
 
