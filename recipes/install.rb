@@ -3,7 +3,6 @@ apt_repository "newrelic" do
   distribution "newrelic"
   components ["non-free"]
   key node[:newrelic]["apt-key"]
-  keyserver node[:newrelic][:keyserver]
 end
 
 package "newrelic-sysmond"
